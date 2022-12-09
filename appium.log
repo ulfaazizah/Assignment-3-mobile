@@ -1,0 +1,890 @@
+[35m[Appium][39m Welcome to Appium v1.21.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 55313
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\BRI\AppData\Local\Temp\\Katalon\Appium\Temp1670589964584
+[35m[Appium][39m   chromedriverPort: 55314
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 55314
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:55313
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m9 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"D:\\Training Katalon\\Assignment2_ulfaazizah\\apk\\Solodroid_E-CommerceApp Demo_3.2.0.apk","noReset":true,"deviceName":"Realme RMX1851 (Android 11)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"d9aa9a65","systemPort":55322},"capabilities":{"firstMatch":[{"appium:app":"D:\\Training Katalon\\Assignment2_ulfaazizah\\apk\\Solodroid_E-CommerceApp Demo_3.2.0.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Realme RMX1851 (Android 11)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":55322,"appium:udid":"d9aa9a65"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 675158be-5587-4290-808a-60fc5d8fa955
+[35m[BaseDriver][39m Using local app 'D:\Training Katalon\Assignment2_ulfaazizah\apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\BRI\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/BRI/.katalon/tools/android_sdk/build-tools/29.0.0
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\BRI\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: d9aa9a65
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\BRI\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.solodroid.solomerce'
+[35m[ADB][39m Main activity name: 'com.solodroid.solomerce.activities.ActivitySplash'
+[35m[ADB][39m The application at 'C:\Users\BRI\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'settings_apk-debug.apk' took 3315ms
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\BRI\.katalon\tools\android_sdk\build-tools\29.0.0\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\BRI\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\BRI\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'D:\Training Katalon\Assignment2_ulfaazizah\apk\Solodroid_E-CommerceApp Demo_3.2.0.apk' is signed with a non-default certificate
+[35m[ADB][39m The application at 'D:\Training Katalon\Assignment2_ulfaazizah\apk\Solodroid_E-CommerceApp Demo_3.2.0.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'Solodroid_E-CommerceApp Demo_3.2.0.apk' took 4575ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.21.1
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\BRI\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' and test from 'C:\Users\BRI\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.solodroid.solomerce/com.solodroid.solomerce.activities.ActivitySplash and waiting for 'com.solodroid.solomerce/com.solodroid.solomerce.activities.ActivitySplash'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 675158be-5587-4290-808a-60fc5d8fa955 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m21890 ms - 1320[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955 [39m[32m200[39m [90m19 ms - 1274[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955 [39m[32m200[39m [90m17 ms - 1274[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source [39m[32m200[39m [90m46 ms - 3679[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot [39m[32m200[39m [90m770 ms - 351502[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source [39m[32m200[39m [90m253 ms - 34102[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot [39m[32m200[39m [90m1591 ms - 1921292[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'E-Commerce Android App' or . = 'E-Commerce Android App')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m262 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect [39m[32m200[39m [90m37 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'E-Commerce Android App' or . = 'E-Commerce Android App')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m157 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/b161429e-1f4b-4b43-a1e3-02ba3bf3839e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/b161429e-1f4b-4b43-a1e3-02ba3bf3839e/location [39m[32m200[39m [90m28 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/b161429e-1f4b-4b43-a1e3-02ba3bf3839e/click[39m
+[35m[HTTP][39m [90m{"id":"b161429e-1f4b-4b43-a1e3-02ba3bf3839e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/b161429e-1f4b-4b43-a1e3-02ba3bf3839e/click [39m[32m200[39m [90m124 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source [39m[32m200[39m [90m260 ms - 34102[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot [39m[32m200[39m [90m1378 ms - 1921292[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'E-Commerce Android App' or . = 'E-Commerce Android App')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m151 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect [39m[32m200[39m [90m11 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'E-Commerce Android App' or . = 'E-Commerce Android App')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m138 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/1f9d9d1f-da36-4dc7-a1b5-0ecf0a5518e0/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/1f9d9d1f-da36-4dc7-a1b5-0ecf0a5518e0/location [39m[32m200[39m [90m26 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/1f9d9d1f-da36-4dc7-a1b5-0ecf0a5518e0/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/1f9d9d1f-da36-4dc7-a1b5-0ecf0a5518e0/text [39m[32m200[39m [90m29 ms - 85[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source [39m[32m200[39m [90m236 ms - 34102[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot [39m[32m200[39m [90m1422 ms - 1920918[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Samsung Galaxy S10 - Black' or . = 'Samsung Galaxy S10 - Black') and @resource-id = 'com.solodroid.solomerce:id/product_name']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m150 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect [39m[32m200[39m [90m23 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Samsung Galaxy S10 - Black' or . = 'Samsung Galaxy S10 - Black') and @resource-id = 'com.solodroid.solomerce:id/product_name']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m128 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/9f658745-9315-4202-9ca1-4266f4b682b8/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/9f658745-9315-4202-9ca1-4266f4b682b8/location [39m[32m200[39m [90m30 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/9f658745-9315-4202-9ca1-4266f4b682b8/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/9f658745-9315-4202-9ca1-4266f4b682b8/text [39m[32m200[39m [90m37 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source [39m[32m200[39m [90m242 ms - 34102[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot [39m[32m200[39m [90m1513 ms - 1920780[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'U17 USB Portable M3 HUmidifier Air Purifier LED Night Light 200ML' or . = 'U17 USB Portable M3 HUmidifier Air Purifier LED Night Light 200ML') and @resource-id = 'com.solodroid.solomerce:id/product_name']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m211 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect [39m[32m200[39m [90m30 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'U17 USB Portable M3 HUmidifier Air Purifier LED Night Light 200ML' or . = 'U17 USB Portable M3 HUmidifier Air Purifier LED Night Light 200ML') and @resource-id = 'com.solodroid.solomerce:id/product_name']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m164 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/01a0de59-97c8-4a83-8f15-b900e32dda31/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/01a0de59-97c8-4a83-8f15-b900e32dda31/location [39m[32m200[39m [90m63 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/01a0de59-97c8-4a83-8f15-b900e32dda31/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/01a0de59-97c8-4a83-8f15-b900e32dda31/text [39m[32m200[39m [90m59 ms - 128[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source [39m[32m200[39m [90m221 ms - 34102[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot [39m[32m200[39m [90m1482 ms - 1921432[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Apple watch series 3 GPS 42mm Black' or . = 'Apple watch series 3 GPS 42mm Black') and @resource-id = 'com.solodroid.solomerce:id/product_name']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m191 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect [39m[32m200[39m [90m21 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Apple watch series 3 GPS 42mm Black' or . = 'Apple watch series 3 GPS 42mm Black') and @resource-id = 'com.solodroid.solomerce:id/product_name']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m167 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/a47fd3b4-4dee-48b2-82ef-482d1d932406/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/a47fd3b4-4dee-48b2-82ef-482d1d932406/location [39m[32m200[39m [90m36 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/a47fd3b4-4dee-48b2-82ef-482d1d932406/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/a47fd3b4-4dee-48b2-82ef-482d1d932406/text [39m[32m200[39m [90m44 ms - 98[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source [39m[32m200[39m [90m234 ms - 34102[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot [39m[32m200[39m [90m1465 ms - 1921382[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Mini Digital Speaker TD-V26 USB FM Radio SD TF Card MP3 - Red' or . = 'Mini Digital Speaker TD-V26 USB FM Radio SD TF Card MP3 - Red') and @resource-id = 'com.solodroid.solomerce:id/product_name']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m190 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect [39m[32m200[39m [90m31 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Mini Digital Speaker TD-V26 USB FM Radio SD TF Card MP3 - Red' or . = 'Mini Digital Speaker TD-V26 USB FM Radio SD TF Card MP3 - Red') and @resource-id = 'com.solodroid.solomerce:id/product_name']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m160 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/b9c5b50a-b3c7-4403-9e2b-e2af5219b673/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/b9c5b50a-b3c7-4403-9e2b-e2af5219b673/location [39m[32m200[39m [90m37 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/b9c5b50a-b3c7-4403-9e2b-e2af5219b673/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/b9c5b50a-b3c7-4403-9e2b-e2af5219b673/text [39m[32m200[39m [90m38 ms - 124[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source [39m[32m200[39m [90m186 ms - 34102[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot [39m[32m200[39m [90m1519 ms - 1921382[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m163 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/window/rect [39m[32m200[39m [90m23 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m150 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/c1f04cda-ed93-4f6a-94fc-858b4ad15364/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/c1f04cda-ed93-4f6a-94fc-858b4ad15364/location [39m[32m200[39m [90m23 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m197 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/5ed68df5-c031-4884-812e-3eda66b5b3ed/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/5ed68df5-c031-4884-812e-3eda66b5b3ed/location [39m[32m200[39m [90m41 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m158 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/520e71cb-18de-495f-943c-4dbb8eb14156/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/520e71cb-18de-495f-943c-4dbb8eb14156/location [39m[32m200[39m [90m48 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m167 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/68f48040-51ef-47fb-9661-b72455c68d26/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/68f48040-51ef-47fb-9661-b72455c68d26/location [39m[32m200[39m [90m38 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m168 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/9cb1be35-c5a2-44ad-9768-bbd17d24acea/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/9cb1be35-c5a2-44ad-9768-bbd17d24acea/location [39m[32m200[39m [90m23 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m136 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/860fbf25-6441-40e4-a1db-7968b7b8af2d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/860fbf25-6441-40e4-a1db-7968b7b8af2d/location [39m[32m200[39m [90m31 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m157 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/e0b3b09f-e301-4d88-b51a-816613d04c3c/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/e0b3b09f-e301-4d88-b51a-816613d04c3c/location [39m[32m200[39m [90m27 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m183 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/fd03123b-de81-4889-8190-1b6674328597/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/fd03123b-de81-4889-8190-1b6674328597/location [39m[32m200[39m [90m35 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m184 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/f14da02a-4603-4ea8-bbaa-a170c2196a6e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/f14da02a-4603-4ea8-bbaa-a170c2196a6e/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m182 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/27eb0abb-86a8-4d04-931e-16830952b782/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/27eb0abb-86a8-4d04-931e-16830952b782/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m126 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/e86fb767-6c2f-402f-88b9-0d3f7e7a5316/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/e86fb767-6c2f-402f-88b9-0d3f7e7a5316/location [39m[32m200[39m [90m30 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m148 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/79a69930-0317-4ad9-a538-ab1a9a8649ab/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/79a69930-0317-4ad9-a538-ab1a9a8649ab/location [39m[32m200[39m [90m50 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m144 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/3a5fdcd2-5701-4bc3-97ca-173682f7a688/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/3a5fdcd2-5701-4bc3-97ca-173682f7a688/location [39m[32m200[39m [90m29 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m126 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/67373da7-9df3-4fbd-93a1-880de0d16fed/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/67373da7-9df3-4fbd-93a1-880de0d16fed/location [39m[32m200[39m [90m39 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m151 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/31115a88-ea65-4c27-a1b9-6b01a3b3ef5d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/31115a88-ea65-4c27-a1b9-6b01a3b3ef5d/location [39m[32m200[39m [90m29 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m146 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/7b98ab99-1a44-46d5-b290-61dba094fd6c/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/7b98ab99-1a44-46d5-b290-61dba094fd6c/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m153 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/043e22b7-31ba-4751-a5b6-0dd9fabfa165/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/043e22b7-31ba-4751-a5b6-0dd9fabfa165/location [39m[32m200[39m [90m29 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m164 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/b4d227ce-d7e0-4564-a236-0e8691cf40e9/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/b4d227ce-d7e0-4564-a236-0e8691cf40e9/location [39m[32m200[39m [90m31 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m151 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/3f74f815-8ba4-4f87-8129-fc9744858085/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/3f74f815-8ba4-4f87-8129-fc9744858085/location [39m[32m200[39m [90m41 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m88 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/f7a287a4-f259-40fe-b472-357e05e66a6b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/f7a287a4-f259-40fe-b472-357e05e66a6b/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m179 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/f6454b79-ae58-44d5-834b-bc4227f23df5/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/f6454b79-ae58-44d5-834b-bc4227f23df5/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m111 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/56dcbf45-dd31-43b7-adfd-0c2492ed80ae/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/56dcbf45-dd31-43b7-adfd-0c2492ed80ae/location [39m[32m200[39m [90m30 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m116 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/e4625590-578b-4511-8281-9bdbc1330637/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/e4625590-578b-4511-8281-9bdbc1330637/location [39m[32m200[39m [90m31 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m154 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/a810d23d-aa9e-4a2d-864a-6276df50b535/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/a810d23d-aa9e-4a2d-864a-6276df50b535/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m108 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/4724dc82-354f-422e-a898-bf3458c47094/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/4724dc82-354f-422e-a898-bf3458c47094/location [39m[32m200[39m [90m27 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m99 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/4e6a6b81-60ad-47df-bb03-c5afe8b6649b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/4e6a6b81-60ad-47df-bb03-c5afe8b6649b/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m129 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/396c5cc0-3a3e-49f1-b923-a2ba04afd2b3/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/396c5cc0-3a3e-49f1-b923-a2ba04afd2b3/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m120 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/dcd49a10-d00c-40cc-8baa-bc8f4d7aab67/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/dcd49a10-d00c-40cc-8baa-bc8f4d7aab67/location [39m[32m200[39m [90m28 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m143 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/1466f76f-be41-4180-be78-fc2927c0ded7/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/1466f76f-be41-4180-be78-fc2927c0ded7/location [39m[32m200[39m [90m32 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m115 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/309e8f19-564a-485b-9cae-62ca6d6782c0/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/309e8f19-564a-485b-9cae-62ca6d6782c0/location [39m[32m200[39m [90m24 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m115 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/77e3feb1-0805-489c-bd16-298305b9fa81/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/77e3feb1-0805-489c-bd16-298305b9fa81/location [39m[32m200[39m [90m32 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m143 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/c4c1210d-e9d9-4e52-b0df-19953075f748/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/c4c1210d-e9d9-4e52-b0df-19953075f748/location [39m[32m200[39m [90m27 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m134 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/8cf884a6-0d32-4fb9-a610-2b7d5bd27dd0/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/8cf884a6-0d32-4fb9-a610-2b7d5bd27dd0/location [39m[32m200[39m [90m36 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m186 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/5a3d6ef5-fde9-4e72-9168-cc5c64c21fe4/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/5a3d6ef5-fde9-4e72-9168-cc5c64c21fe4/location [39m[32m200[39m [90m28 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m140 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/cf6fdcfe-52f9-4595-a018-94edfd503382/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/cf6fdcfe-52f9-4595-a018-94edfd503382/location [39m[32m200[39m [90m28 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m119 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/55278b91-1aa2-409f-aae4-aca946db7a11/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/55278b91-1aa2-409f-aae4-aca946db7a11/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m117 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/438828c5-2c12-440d-b27f-4090813a79b8/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/438828c5-2c12-440d-b27f-4090813a79b8/location [39m[32m200[39m [90m28 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m152 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/11676bd6-4e88-40c8-b311-ab79d6f1df44/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/11676bd6-4e88-40c8-b311-ab79d6f1df44/location [39m[32m200[39m [90m30 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m113 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/fdfc5c82-5173-4f57-9d95-5d41f9541f16/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/fdfc5c82-5173-4f57-9d95-5d41f9541f16/location [39m[32m200[39m [90m30 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m99 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/73493bcb-db27-465c-97c1-cf522d3f3198/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/73493bcb-db27-465c-97c1-cf522d3f3198/location [39m[32m200[39m [90m35 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m141 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/c5336d92-03ec-4f89-8b6a-275203a543ac/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/c5336d92-03ec-4f89-8b6a-275203a543ac/location [39m[32m200[39m [90m27 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m131 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/b2871e83-8716-4763-a001-b7d4afccd73a/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/b2871e83-8716-4763-a001-b7d4afccd73a/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m135 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/9f2549a0-0834-432e-86fb-de61b2e0b015/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/9f2549a0-0834-432e-86fb-de61b2e0b015/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m135 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/0819f2d8-610f-455c-acfc-98f05b7c185b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/0819f2d8-610f-455c-acfc-98f05b7c185b/location [39m[32m200[39m [90m35 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m131 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/1ef61f70-ca22-43fe-abc0-09af7eb02e51/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/1ef61f70-ca22-43fe-abc0-09af7eb02e51/location [39m[32m200[39m [90m30 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m112 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/59709a44-1666-421c-8867-2d33e08b9d50/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/59709a44-1666-421c-8867-2d33e08b9d50/location [39m[32m200[39m [90m29 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m135 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/d158fb10-11cb-402c-b655-1c76ece7eb0c/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/d158fb10-11cb-402c-b655-1c76ece7eb0c/location [39m[32m200[39m [90m31 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m123 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/9747e5a6-8d50-456c-9ab0-7c7d3fe60228/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/9747e5a6-8d50-456c-9ab0-7c7d3fe60228/location [39m[32m200[39m [90m29 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m136 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/5152ef40-6288-438a-b295-a2ae3e04762c/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/5152ef40-6288-438a-b295-a2ae3e04762c/location [39m[32m200[39m [90m34 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m96 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/4f61c85d-c35b-446d-a3aa-92b444019ca0/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/4f61c85d-c35b-446d-a3aa-92b444019ca0/location [39m[32m200[39m [90m27 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m110 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/20dff81e-e537-44f3-b6e8-9979056aed6d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/20dff81e-e537-44f3-b6e8-9979056aed6d/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m139 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/50a49df8-0639-4afa-b889-165182fe33c5/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/50a49df8-0639-4afa-b889-165182fe33c5/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m121 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/75b69c98-7e5e-417d-98b9-c3f237caa5c3/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/75b69c98-7e5e-417d-98b9-c3f237caa5c3/location [39m[32m200[39m [90m32 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m126 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/11a61a0b-791a-45af-a88b-173cdbb3958f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/11a61a0b-791a-45af-a88b-173cdbb3958f/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m112 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/6fbf15d1-d17d-428c-94ba-b10818f718b2/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/6fbf15d1-d17d-428c-94ba-b10818f718b2/location [39m[32m200[39m [90m23 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Recent' or . = 'Recent') and @resource-id = 'com.solodroid.solomerce:id/largeLabel']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/elements [39m[32m200[39m [90m122 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/7ec51f25-6421-43f5-8b0e-793e1840dbe0/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/7ec51f25-6421-43f5-8b0e-793e1840dbe0/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/7ec51f25-6421-43f5-8b0e-793e1840dbe0/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/element/7ec51f25-6421-43f5-8b0e-793e1840dbe0/text [39m[32m200[39m [90m22 ms - 69[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (675158be)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 80904234-dd20-4508-a493-2d8368742516 with 675158be-5587-4290-808a-60fc5d8fa955
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/source [39m[32m200[39m [90m203 ms - 34102[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955/screenshot [39m[32m200[39m [90m1502 ms - 1921432[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 675158be-5587-4290-808a-60fc5d8fa955 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/675158be-5587-4290-808a-60fc5d8fa955 [39m[32m200[39m [90m919 ms - 14[39m
+[35m[HTTP][39m [90m[39m

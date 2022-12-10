@@ -104,6 +104,8 @@ Mobile.waitForElementPresent(findTestObject('category_product/android.widget.Tex
 
 Mobile.verifyElementExist(findTestObject('category_product/android.widget.TextView - Category (1)'), 0)
 
+Mobile.tap(findTestObject('category_product/android.widget.TextView - Recent'), 0)
+
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()

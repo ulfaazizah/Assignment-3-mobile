@@ -78,6 +78,32 @@ Mobile.waitForElementPresent(findTestObject('help/android.widget.TextView - Help
 
 Mobile.verifyElementExist(findTestObject('help/android.widget.TextView - Help (1)'), 0)
 
+Mobile.tap(findTestObject('Object Repository/profile/android.widget.TextView - Profile'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Object Repository/profile/android.widget.TextView - Profile (1)'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/profile/android.widget.TextView - Profile (1)'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/profile/android.widget.TextView - Your Name'), 0)
+
+Mobile.tap(findTestObject('Object Repository/profile/android.widget.TextView - Order History'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Object Repository/profile/android.widget.TextView - Whoops, you havent ordered yet'), 
+    0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/profile/android.widget.TextView - Whoops, you havent ordered yet'), 
+    0)
+
+Mobile.tap(findTestObject('Object Repository/profile/android.widget.ImageButton (1)'), 0)
+
+Mobile.waitForElementPresent(findTestObject('profile/android.widget.TextView - Rate Us'), 0)
+
+Mobile.verifyElementExist(findTestObject('profile/android.widget.TextView - Rate Us'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/profile/android.widget.TextView - Share'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/profile/android.widget.TextView - Privacy Policy'), 0)
+
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()

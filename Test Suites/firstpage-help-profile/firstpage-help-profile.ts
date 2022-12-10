@@ -22,7 +22,7 @@
       <guid>bc4b6745-9311-4d6a-a0b3-f834bdbdc169</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/help</testCaseId>
+      <testCaseId>Test Cases/help_profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

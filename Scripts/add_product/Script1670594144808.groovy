@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\Training Katalon\\Assignment2_ulfaazizah\\apk\\Solodroid_E-CommerceApp Demo_3.2.0.apk', true)
+
 Mobile.tap(findTestObject('Object Repository/add_product/android.widget.TextView - Apple watch series 3 GPS 42mm Black'), 
     0)
 
@@ -33,6 +34,4 @@ Mobile.tap(findTestObject('Object Repository/add_product/android.widget.Button -
 
 Mobile.verifyElementExist(findTestObject('add_product/android.widget.TextView - Apple watch series 3 GPS 42mm Black (1)'), 
     0)
-
-Mobile.closeApplication()
 

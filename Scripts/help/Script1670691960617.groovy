@@ -18,7 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Mobile.startApplication('D:\\Training Katalon\\Assignment2_ulfaazizah\\apk\\Solodroid_E-CommerceApp Demo_3.2.0.apk', true)
-
 Mobile.tap(findTestObject('Object Repository/help/android.widget.TextView - Help'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/help/android.widget.TextView - Help (1)'), 0)
@@ -78,6 +77,8 @@ Mobile.tap(findTestObject('help/android.widget.ImageButton'), 0)
 Mobile.waitForElementPresent(findTestObject('help/android.widget.TextView - Help (1)'), 0)
 
 Mobile.verifyElementExist(findTestObject('help/android.widget.TextView - Help (1)'), 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

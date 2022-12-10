@@ -36,3 +36,5 @@ Mobile.verifyElementExist(findTestObject('screen_recent/android.widget.TextView 
 
 Mobile.verifyElementExist(findTestObject('screen_recent/android.widget.TextView - Recent'), 0)
 
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+

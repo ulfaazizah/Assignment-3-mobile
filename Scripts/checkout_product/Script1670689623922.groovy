@@ -18,7 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Mobile.startApplication('D:\\Training Katalon\\Assignment 3 - Mobile\\apk\\Solodroid_E-CommerceApp Demo_3.2.0.apk', true)
-
 Mobile.tap(findTestObject('Object Repository/checkout_product/android.widget.TextView - Apple watch series 3 GPS 42mm Black'), 
     0)
 
@@ -98,6 +97,8 @@ Mobile.waitForElementPresent(findTestObject('Object Repository/checkout_product/
 
 Mobile.verifyElementExist(findTestObject('Object Repository/checkout_product/android.widget.TextView - E-Commerce Android App'), 
     0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

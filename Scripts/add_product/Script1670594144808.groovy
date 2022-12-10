@@ -17,24 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def apkPath = System.getProperty('user.dir') + GlobalVariable.url
-
-Mobile.startApplication(apkPath, true)
-
-Mobile.waitForElementPresent(findTestObject('screen_recent/android.widget.TextView - E-Commerce Android App'), 2)
-
-Mobile.verifyElementExist(findTestObject('screen_recent/android.widget.TextView - Apple watch series 3 GPS 42mm Black'), 
+//Mobile.startApplication('D:\\Training Katalon\\Assignment2_ulfaazizah\\apk\\Solodroid_E-CommerceApp Demo_3.2.0.apk', true)
+Mobile.tap(findTestObject('Object Repository/add_product/android.widget.TextView - Apple watch series 3 GPS 42mm Black'), 
     0)
 
-Mobile.verifyElementExist(findTestObject('screen_recent/android.widget.TextView - Mini Digital Speaker TD-V26 USB FM Radio SD TF Card MP3 - Red'), 
+Mobile.verifyElementExist(findTestObject('add_product/android.widget.TextView - 400 USD'), 0)
+
+Mobile.verifyElementExist(findTestObject('add_product/android.widget.TextView - 5 item(s)'), 0)
+
+Mobile.tap(findTestObject('add_product/android.widget.Button - ADD TO CART'), 0)
+
+Mobile.setText(findTestObject('Object Repository/add_product/android.widget.EditText'), '1', 0)
+
+Mobile.tap(findTestObject('Object Repository/add_product/android.widget.Button - ADD'), 0)
+
+Mobile.verifyElementExist(findTestObject('add_product/android.widget.TextView - Apple watch series 3 GPS 42mm Black (1)'), 
     0)
-
-Mobile.verifyElementExist(findTestObject('screen_recent/android.widget.TextView - Samsung Galaxy S10 - Black'), 0)
-
-Mobile.verifyElementExist(findTestObject('screen_recent/android.widget.TextView - U17 USB Portable M3 HUmidifier Air Purifier LED Night Light 200ML'), 
-    0)
-
-Mobile.verifyElementExist(findTestObject('screen_recent/android.widget.TextView - Recent'), 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
